@@ -18,7 +18,7 @@ const Navbar = () => {
           <img
             src="images/ppicon.png"
             alt="paypal icon"
-            className="w-[2rem] h-[2rem] mr-4 md:mr-8"
+            className="w-[2rem] h-[2rem] mr-4 md:mr-[5rem]"
           />
           {/* Responsive navigation */}
           <div className="hidden md:flex">
@@ -26,7 +26,7 @@ const Navbar = () => {
               <a
                 key={index}
                 href={item.link}
-                className="text-blue-dark mr-4 hover:text-blue hover:scale-105 hover:font-medium"
+                className="text-blue-dark mr-4 md:pr-[3rem] hover:text-blue hover:scale-105 hover:font-medium"
               >
                 {item.name}
               </a>
