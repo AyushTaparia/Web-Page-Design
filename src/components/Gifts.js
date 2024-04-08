@@ -3,10 +3,10 @@ import React from "react";
 const Gifts = () => {
   return (
     <>
-      <div className="mt-10 w-full h-full bg-orange-50 px-[10rem] py-[2rem] flex flex-col">
+      <div className="mt-10 w-full h-full bg-orange-50 px-[2rem] md:px-[10rem] py-[2rem] flex flex-col">
         <h1 className="text-3xl">PayPal helps your gifts do more good</h1>
-        <div className="grid grid-cols-3 my-10 gap-10">
-          <div className="mx-auto">
+        <div className="grid md:grid-cols-3 gride-rows-3 my-10 gap-10">
+          <div className="md:mx-auto">
             <img
               src="/images/donation.png"
               alt=""
@@ -20,7 +20,7 @@ const Gifts = () => {
               Charities are in good standings so you can donate more securely.
             </p>
           </div>
-          <div className="mx-auto">
+          <div className="md:mx-auto">
             <img
               src="/images/payment.png"
               alt=""
@@ -32,7 +32,7 @@ const Gifts = () => {
               Help charities pay less in fee and do more with your donation.
             </p>
           </div>
-          <div className="mx-auto">
+          <div className="md:mx-auto">
             <img
               src="/images/tax.png"
               alt=""
@@ -46,7 +46,7 @@ const Gifts = () => {
           </div>
         </div>
       </div>
-      <p className="px-[10rem] py-[2rem]">
+      <p className="md:px-[10rem] px-[2rem] py-[2rem]">
         PayPal covers all transaction fees. You're donating to PayPal Giving
         Fund, a 501(c)(3) charity,
         <span className="text-blue-700 font-medium"> subject to its terms</span>

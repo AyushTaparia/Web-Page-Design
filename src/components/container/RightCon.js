@@ -6,22 +6,22 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const RightCon = () => {
   return (
-    <div className="w-2/5 mt-5 space-y-5">
-      <div className="flex flex-row space-x-5">
+    <div className="md:w-2/5 mt-5 space-y-5 px-4 md:px-0">
+      <div className="flex flex-col flex-wrap md:flex-row md:space-x-5 md:space-y-0 space-y-5">
         {["$25", "$50", "$100"].map((value, index) => (
           <div
             key={index}
-            className="flex-grow rounded-md shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] px-12 py-4 hover:bg-blue hover:text-white hover:scale-105 cursor-pointer transition-colors duration-300"
+            className="flex-grow rounded-md text-center shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] px-12 py-4 hover:bg-blue hover:text-white hover:scale-105 cursor-pointer transition-colors duration-300"
           >
             {value}
           </div>
         ))}
       </div>
-      <div className="flex flex-row space-x-5">
+      <div className="flex flex-col md:flex-row md:space-x-5 md:space-y-0 space-y-5">
         {["$200", "Other"].map((value, index) => (
           <div
             key={index}
-            className="rounded-md shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] px-12 py-4 hover:bg-blue hover:text-white hover:scale-105 cursor-pointer transition-colors duration-300"
+            className="rounded-md text-center shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] px-12 py-4 hover:bg-blue hover:text-white hover:scale-105 cursor-pointer transition-colors duration-300"
           >
             {value}
           </div>
@@ -30,7 +30,7 @@ const RightCon = () => {
 
       <div className="flex items-center">
         <input type="checkbox" className="mr-2 w-5 h-5" />
-        <label>Share my name and email with this charity.</label>
+        <label className="md:text-base text-sm">Share my name and email with this charity.</label>
       </div>
 
       <button className="text-white border-solid border-2 bg-blue hover:bg-blue-700 hover:scale-105 font-medium py-2 px-4 rounded-full mr-4">
@@ -63,7 +63,7 @@ const RightCon = () => {
           </li>
         </ul>
       </div>
-      <div className="border border-2 rounded-2xl w-full h-[18rem] p-6 flex flex-col items-center space-y-5">
+      <div className="border border-2 rounded-2xl w-full h-full md:h-[18rem] p-6 flex flex-col items-center space-y-5">
         <h1 className="font-bold text-lg">Share and inspire others</h1>
         <div className="flex flex-row space-x-5">
           <div className="w-[6vh] h-[6vh] hover:scale-105 cursor-pointer rounded-full bg-orange-50 flex justify-center items-center">

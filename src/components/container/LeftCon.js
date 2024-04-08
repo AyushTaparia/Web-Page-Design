@@ -5,14 +5,14 @@ import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
 
 const LeftCon = () => {
   return (
-    <div className="w-3/5 space-y-5">
+    <div className="md:w-3/5 w-full space-y-5 md:px-0 mt-8 md:mt-0">
       <p>
         Donate to PayPal Giving Fund
         <br />
-        <span className="text-5xl">Figures of Speech Theatre</span>
+        <span className="md:text-5xl text-3xl">Figures of Speech Theatre</span>
       </p>
-      <div className=" w-[16vh] h-8 rounded-full bg-blue-200 flex justify-center items-center hover:scale-105">
-        <label className="text-blue text-sm">Arts & culture</label>
+      <div className="w-24 md:w-[16vh] h-8 rounded-full bg-blue-200 flex justify-center items-center hover:scale-105">
+        <label className="text-blue md:text-sm text-xs">Arts & culture</label>
       </div>
       <p>
         Freedom, ME
@@ -20,10 +20,10 @@ const LeftCon = () => {
         EIN: 01-0432620
       </p>
       <div className="flex flex-row space-x-3">
-        <div className="w-[5vh] h-[5vh] hover:scale-105 cursor-pointer rounded-full bg-orange-50 flex justify-center items-center">
+        <div className="w-12 md:w-[5vh] h-12 md:h-[5vh] hover:scale-105 cursor-pointer rounded-full bg-orange-50 flex justify-center items-center">
           <FontAwesomeIcon icon={faCreditCard} style={{ color: "#130070" }} />
         </div>
-        <div className="w-[5vh] h-[5vh] hover:scale-105 cursor-pointer rounded-full bg-orange-50 flex justify-center items-center">
+        <div className="w-12 md:w-[5vh] h-12 md:h-[5vh] hover:scale-105 cursor-pointer rounded-full bg-orange-50 flex justify-center items-center">
           <FontAwesomeIcon icon={faHeart} style={{ color: "#ff3300" }} />
         </div>
       </div>
