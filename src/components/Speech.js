@@ -1,6 +1,6 @@
 import React from "react";
-import LeftCon from "./LeftCon";
-import RightCon from "./RightCon";
+import LeftCon from "./container/LeftCon";
+import RightCon from "./container/RightCon";
 
 const Speech = () => {
   return (

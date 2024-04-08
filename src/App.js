@@ -1,8 +1,8 @@
-import Body from "./Body";
-import Navbar from "./Navbar";
-import Speech from "./Speech";
-import Gifts from "./Gifts";
-import Footer from "./Footer";
+import Body from "./components/Body";
+import Navbar from "./components/Navbar";
+import Speech from "./components/Speech";
+import Gifts from "./components/Gifts";
+import Footer from "./components/Footer";
 
 function App() {
   return (
